@@ -3,7 +3,7 @@
 #library(ggplot2)
 
 #for (file in dir(pattern="_coded.csv")){
-load_filename <- "datacoded_granada.csv"
+load_filename <- "o-span_raw_coded.csv"
 subject_data_filename <- paste("subject_data_",load_filename,sep="") 
 data <- read.csv(load_filename)
 

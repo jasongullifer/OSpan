@@ -3,7 +3,7 @@
 library(reshape)
 
 #for (file in dir(pattern='*.txt')){
-load_filename <- "ls_ospan_missing4_fixed.txt"
+load_filename <- "merged_cornelia.txt"
 coded_filename = paste(strsplit(load_filename,".txt"),"_coded.csv",sep="") 
 data <- read.delim(load_filename, skip=2, encoding="latin1")
 
